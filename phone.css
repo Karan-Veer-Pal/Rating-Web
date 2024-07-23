@@ -1,0 +1,116 @@
+#navbar
+{
+    flex-direction: column;
+}
+.image
+{
+    top: 10px;
+}
+.image img
+{
+    width: 60px;
+    height: 60px;
+}
+#navbar ul li
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+#video video
+{
+    display: block;
+    margin: auto;
+    height: 250px;
+}
+
+#about h1
+{
+    font-size: 1.5rem;
+}
+#about p
+{
+    font-size: 0.6rem;
+}
+
+#collection h1
+{
+    font-size: 1.5rem;
+}
+.box
+{
+    width: 200px;
+    height: 150px;
+}
+.box img
+{
+    width: 50px;
+    height: 50px;
+}
+.box h3
+{
+    font-size: 0.6;
+}
+.box p
+{
+    font-size: 0.4rem;
+}
+
+#message h1
+{
+    font-size: 1.5rem;
+}
+#message textarea
+{
+    width: 60%;
+    font-size: 0.5rem;
+}
+
+#languages h1
+{
+    font-size: 1.5rem;
+}
+#languages .lang-image
+{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#languages img
+{
+    width: 500px;
+    height: 150px;
+}
+
+#highlights h1
+{
+    font-size: 1.5rem;
+}
+#highlights .high-image
+{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#highlights img
+{
+    width: 500px;
+    height: 150px;
+}
+
+#labels h1
+{
+    font-size: 1.5rem;
+}
+#labels p
+{
+    font-size: 0.7rem;
+}
+#labels .label-image
+{
+    flex-wrap: wrap;
+}
+
+footer div
+{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}

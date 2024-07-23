@@ -1,0 +1,355 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    background-color: black;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+#navbar
+{
+    display: flex;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+}
+#navbar::before
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.image
+{
+    position: relative;
+    top: 6px;
+    left: 15px;
+    padding: 2px 3px;
+}
+.image img
+{
+    margin: 0px 9px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#navbar ul
+{
+    display: flex;
+}
+#navbar ul li
+{
+    margin: 0px 5px;
+    padding: 1px 5px;
+    list-style: none;
+}
+#navbar ul li a 
+{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    width: 35px;
+    padding: 4px;
+}
+#navbar ul li a:hover 
+{
+    background-color: white;
+    color: black;
+}
+
+#video video
+{
+    height: 758px;
+}
+
+#poster img
+{
+    width: 100%;
+    height: 300px;
+}
+
+
+#about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#about::before
+{
+    content: "";
+    position: absolute;
+    background: url('image23.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#about h1
+{
+    font-family: cursive;
+    font-size: 2rem;
+    color: white;
+}
+#about p
+{
+    margin: 2px 3px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+#collection
+{
+    position: relative;
+}
+#collection::before
+{
+    content: "";
+    position: absolute;
+    background: url('image24.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#collection h1
+{
+    font-family: cursive;
+    font-size: 2rem;
+    /* color: white; */
+    text-align: center;
+    padding: 2px 3px;
+    margin: 2px 3px;
+    color: white;
+}
+.container 
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box
+{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 3px 25px;
+    padding: 3px;
+}
+.box img
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 3px;
+    margin-top: 2px;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+}
+.box h3
+{
+    margin-top: 0px;
+    padding: 3px 3px;
+    color: white;
+}
+.box p
+{
+    color: white;
+    margin: 2px 3px;
+    padding: 3px 3px;
+}
+
+
+
+#review img
+{
+    width: 100%;
+    height: 300px;
+}
+
+#message
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#message::before
+{
+    content: "";
+    position: absolute;
+    background: url('image25.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#message h1
+{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+#message textarea
+{
+    width: 30%;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    display: inline;
+    margin: auto;
+}
+
+
+#languages
+{
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+}
+#languages::before
+{
+    content: "";
+    position: absolute;
+    background: url('image26.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#languages h1
+{
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+#languages .lang-image
+{
+    display: flex;
+    margin: 3px 6px;
+}
+#languages img
+{
+    margin: 3px 3px;
+    width: 262px;
+    height: 150px;
+}
+
+
+#highlights
+{
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+}
+#highlights::before
+{
+    content: "";
+    position: absolute;
+    background: url('image25.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#highlights h1
+{
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+#highlights .high-image
+{
+    display: flex;
+    margin: 3px 6px;
+}
+#highlights img
+{
+    margin: 3px 3px;
+    width: 260px;
+    height: 200px;
+}
+
+
+#labels
+{
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+}
+#labels::before
+{
+    content: "";
+    position: absolute;
+    background: url('image27.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#labels h1
+{
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+#labels p
+{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin: 0%;
+}
+#labels .label-image
+{
+    display: flex;
+    margin: 3px 6px;
+}
+#labels img
+{
+    margin: 3px 3px;
+    width: 1000px;
+    height: 200px;
+}
+
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 2px 22px;
+}
+footer div
+{
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+}
